@@ -1,7 +1,49 @@
 html {
-  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Noto Sans Japanese", sans-serif;
+  color: #000;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+nav a {
+  color: #005e76;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #8bc9d9;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #0084a6;
+  border-bottom-color: #0084a6;
+}
+
+hr {
+  border-width: 2px;
+  border-color: #e2e2e2;
+}
+
+.btn-ghost {
+  color: #005e76;
+  border-color: #8bc9d9;
+  border-width: 2px;
+}
+
+.btn-ghost:hover {
+  background-color: #8bc9d9;
+}
+
+footer p {
+  color: #666;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .h1class {
+    text-align: left;
+  }
+
+  .h2class {
+    text-align: left;
+  }
+
 }
